@@ -25,7 +25,57 @@
     </div>
     <div class="flex flex-col flex-1">
         <x-header></x-header>
-        <main class="min-h-[500px]"></main>
+        <main class="bg-white min-h-[500px]">
+            @php
+                $tabs = ['Афиша', 'Сеансы', 'Кинотеатр', 'Контакты'];
+                $selectedTab = $tabs[0];
+            @endphp
+            <x-ui.tabs :tabs="$tabs" :tab="$selectedTab">
+                <x-slot name="rightSlot">
+                    <div class="flex gap-8 items-center">
+                        <x-ui.button message="Войти"></x-ui.button>
+                        <x-ui.button message="Написать отзыв"></x-ui.button>
+                    </div>
+                </x-slot>
+            </x-ui.tabs>
+            @php
+                $movies = [
+                    (object) [
+                        'title' => 'Праздники',
+                        'label'=>'премьера',
+                        'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
+                        'tags'=>['экшен', 'триллер'],
+                        'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
+                    ],
+                    (object) [
+                        'title' => 'Праздники',
+                        'label'=>'премьера',
+                        'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
+                        'tags'=>['экшен', 'триллер', 'экшен', 'триллер', 'экшен', 'триллер'],
+                        'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
+                    ],
+                    (object) [
+                        'title' => 'Праздники',
+                        'label'=>'премьера',
+                        'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
+                        'tags'=>['экшен', 'триллер'],
+                        'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
+                    ],
+                    (object) [
+                        'title' => 'Праздники',
+                        'label'=>'премьера',
+                        'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
+                        'tags'=>['экшен', 'триллер', 'экшен', 'триллер', 'экшен', 'триллер'],
+                        'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
+                    ],
+                ];
+            @endphp
+            <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] mt-5 mx-[50px] mb-[100px]">
+                @foreach($movies as $movie)
+                    <x-movie-card :movie="$movie"></x-movie-card>
+                @endforeach
+            </div>
+        </main>
         <x-footer></x-footer>
     </div>
     <div class="bg-black">
