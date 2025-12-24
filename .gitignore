@@ -19,6 +19,9 @@
 /storage/*.key
 /storage/pail
 /vendor
+Dockerfile
+docker-compose.yaml
 Homestead.json
 Homestead.yaml
+nginx.conf
 Thumbs.db

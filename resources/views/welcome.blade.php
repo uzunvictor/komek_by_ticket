@@ -30,7 +30,7 @@
                 $tabs = ['Афиша', 'Сеансы', 'Кинотеатр', 'Контакты'];
                 $selectedTab = $tabs[0];
             @endphp
-            <x-ui.tabs :tabs="$tabs" :tab="$selectedTab">
+            <x-ui.tabs :tabs="$tabs" :selected-tab="$selectedTab">
                 <x-slot name="rightSlot">
                     <div class="flex gap-8 items-center">
                         <x-ui.button message="Войти"></x-ui.button>
