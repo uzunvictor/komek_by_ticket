@@ -19,7 +19,7 @@
     </div>
     <div class="flex flex-col flex-1">
         <x-header></x-header>
-        <main class="bg-white min-h-[500px]">
+        <main class="bg-white">
             @php
                 $tabs = ['Афиша', 'Сеансы', 'Кинотеатр', 'Контакты'];
                 $selectedTab = $tabs[0];
@@ -70,9 +70,9 @@
                         <x-movie-card :movie="$movie"></x-movie-card>
                     @endforeach
                 </div>
-                <div data-id="Сеансы" class="hidden animate-fade-in-y">Сеансы</div>
-                <div data-id="Кинотеатр" class="hidden animate-fade-in-y">Кинотеатр</div>
-                <div data-id="Контакты" class="hidden animate-fade-in-y">Контакты</div>
+                <div data-id="Сеансы" class="hidden animate-fade-in-y min-h-screen">Сеансы</div>
+                <div data-id="Кинотеатр" class="hidden animate-fade-in-y min-h-screen">Кинотеатр</div>
+                <div data-id="Контакты" class="hidden animate-fade-in-y min-h-screen">Контакты</div>
             </div>
         </main>
         <x-footer></x-footer>
