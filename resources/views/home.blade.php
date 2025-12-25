@@ -8,16 +8,10 @@
 
     <title>{{ config('app.name', 'Komek by ticket') }}</title>
 
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-{{--    <style>--}}
-{{--        @layer theme {--}}
-{{--            :root {--}}
-{{--                --body-bg-image: url('{{ Vite::asset('resources/assets/images/background-poster.png') }}');--}}
-{{--            }--}}
-{{--        }--}}
-{{--    </style>--}}
 </head>
 <body class="flex bg-black">
     <div class="bg-black">
@@ -70,10 +64,15 @@
                     ],
                 ];
             @endphp
-            <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] mt-5 mx-[50px] mb-[100px]">
-                @foreach($movies as $movie)
-                    <x-movie-card :movie="$movie"></x-movie-card>
-                @endforeach
+            <div class="mt-5 mx-[50px] mb-[100px] overflow-hidden" id="tab_panels">
+                <div data-id="Афиша" class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in">
+                    @foreach($movies as $movie)
+                        <x-movie-card :movie="$movie"></x-movie-card>
+                    @endforeach
+                </div>
+                <div data-id="Сеансы" class="hidden animate-fade-in">Сеансы</div>
+                <div data-id="Кинотеатр" class="hidden animate-fade-in">Кинотеатр</div>
+                <div data-id="Контакты" class="hidden animate-fade-in">Контакты</div>
             </div>
         </main>
         <x-footer></x-footer>
