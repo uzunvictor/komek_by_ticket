@@ -1,6 +1,62 @@
 {
+  "resources/assets/images/bg_left.png": {
+    "file": "assets/bg_left-DVdu5R1P.png",
+    "src": "resources/assets/images/bg_left.png"
+  },
+  "resources/assets/images/bg_right.png": {
+    "file": "assets/bg_right-CuwEKVEl.png",
+    "src": "resources/assets/images/bg_right.png"
+  },
+  "resources/assets/images/main_banner.png": {
+    "file": "assets/main_banner-liTr5G1o.png",
+    "src": "resources/assets/images/main_banner.png"
+  },
+  "resources/assets/images/noimage.png": {
+    "file": "assets/noimage-_81lJuoy.png",
+    "src": "resources/assets/images/noimage.png"
+  },
+  "resources/assets/svg/arrow_down.svg": {
+    "file": "assets/arrow_down-ITWQZbKi.svg",
+    "src": "resources/assets/svg/arrow_down.svg"
+  },
+  "resources/assets/svg/burger.svg": {
+    "file": "assets/burger-CEBhJnZu.svg",
+    "src": "resources/assets/svg/burger.svg"
+  },
+  "resources/assets/svg/close.svg": {
+    "file": "assets/close-DB3uLp8l.svg",
+    "src": "resources/assets/svg/close.svg"
+  },
+  "resources/assets/svg/facebook.svg": {
+    "file": "assets/facebook-B87XwFGT.svg",
+    "src": "resources/assets/svg/facebook.svg"
+  },
+  "resources/assets/svg/instagram.svg": {
+    "file": "assets/instagram-CuWvTJRO.svg",
+    "src": "resources/assets/svg/instagram.svg"
+  },
+  "resources/assets/svg/logo.svg": {
+    "file": "assets/logo-Nvid1IFu.svg",
+    "src": "resources/assets/svg/logo.svg"
+  },
+  "resources/assets/svg/master_card.svg": {
+    "file": "assets/master_card-DI-pDQ0X.svg",
+    "src": "resources/assets/svg/master_card.svg"
+  },
+  "resources/assets/svg/visa.svg": {
+    "file": "assets/visa-DqCCR6v2.svg",
+    "src": "resources/assets/svg/visa.svg"
+  },
+  "resources/assets/svg/vk.svg": {
+    "file": "assets/vk-DHhNXf0R.svg",
+    "src": "resources/assets/svg/vk.svg"
+  },
+  "resources/assets/svg/youtube.svg": {
+    "file": "assets/youtube-B9hMhfrS.svg",
+    "src": "resources/assets/svg/youtube.svg"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-CLpNz7QK.css",
+    "file": "assets/app-Butrhq0l.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -8,16 +64,8 @@
       "app.css"
     ]
   },
-  "resources/images/background-poster.png": {
-    "file": "assets/background-poster-C_lKs6LT.png",
-    "src": "resources/images/background-poster.png"
-  },
-  "resources/images/main_banner.png": {
-    "file": "assets/main_banner-liTr5G1o.png",
-    "src": "resources/images/main_banner.png"
-  },
   "resources/js/app.js": {
-    "file": "assets/app-CAiCLEjY.js",
+    "file": "assets/app-w2xEzx19.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
