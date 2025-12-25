@@ -1,5 +1,6 @@
 import './bootstrap';
-import './tabs.js';
+import './mobile_menu';
+import './tabs';
 
 import.meta.glob(['../assets/images/**', '../assets/svg/**'])
 

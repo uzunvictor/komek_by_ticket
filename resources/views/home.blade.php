@@ -65,14 +65,14 @@
                 ];
             @endphp
             <div class="mt-5 mx-[50px] mb-[100px] overflow-hidden" id="tab_panels">
-                <div data-id="Афиша" class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in">
+                <div data-id="Афиша" class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y">
                     @foreach($movies as $movie)
                         <x-movie-card :movie="$movie"></x-movie-card>
                     @endforeach
                 </div>
-                <div data-id="Сеансы" class="hidden animate-fade-in">Сеансы</div>
-                <div data-id="Кинотеатр" class="hidden animate-fade-in">Кинотеатр</div>
-                <div data-id="Контакты" class="hidden animate-fade-in">Контакты</div>
+                <div data-id="Сеансы" class="hidden animate-fade-in-y">Сеансы</div>
+                <div data-id="Кинотеатр" class="hidden animate-fade-in-y">Кинотеатр</div>
+                <div data-id="Контакты" class="hidden animate-fade-in-y">Контакты</div>
             </div>
         </main>
         <x-footer></x-footer>

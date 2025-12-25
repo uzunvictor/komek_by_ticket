@@ -7,9 +7,9 @@
 
 @theme {
     --font-sans: "Roboto", sans-serif;
-    --animate-fade-in: fade-in 0.3s ease-in-out forwards;
+    --animate-fade-in-y: fade-in-y 0.3s ease-in-out forwards;
 
-    @keyframes fade-in {
+    @keyframes fade-in-y {
         0% {
             transform: translateY(-100%);
             opacity: 0;
