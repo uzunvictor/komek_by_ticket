@@ -1,0 +1,25 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CLpNz7QK.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/images/background-poster.png": {
+    "file": "assets/background-poster-C_lKs6LT.png",
+    "src": "resources/images/background-poster.png"
+  },
+  "resources/images/main_banner.png": {
+    "file": "assets/main_banner-liTr5G1o.png",
+    "src": "resources/images/main_banner.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CAiCLEjY.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
