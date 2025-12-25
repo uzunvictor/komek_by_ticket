@@ -11,7 +11,7 @@
     </div>
     <div class="flex flex-wrap gap-[10px] mt-[20px]">
         @foreach($movie->info as $info)
-            <div class="flex flex-col gap-[3px] items-center w-[66px]">
+            <div class="flex flex-col gap-[3px] items-center w-[66px] transition duration-300 ease-in hover:-translate-y-1 cursor-pointer">
                 <div class="bg-[#E92B43] text-white rounded-[3px] border border-[#E92B43] flex flex-col overflow-hidden">
                     <div class="bg-[#EE92B43] pt-[7px] pr-[14px] pb-[6px] pl-[13px] text-white font-medium text-[15px]">
                         17:40
