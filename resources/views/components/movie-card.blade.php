@@ -1,4 +1,4 @@
-<div class="w-[267px] relative flex flex-col">
+<div class="w-[267px] relative flex flex-col transition duration-300 ease-in hover:scale-102">
     @if($movie->label)
         <div class="bg-[#E92B43] text-white text-sm font-medium absolute top-[10px] right-[10px] px-2 py-1 uppercase">{{$movie->label}}</div>
     @endif
