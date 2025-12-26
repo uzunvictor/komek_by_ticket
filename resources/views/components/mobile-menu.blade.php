@@ -1,9 +1,5 @@
 <div class="sm:!hidden fixed inset-0 flex flex-1 flex-col -translate-x-[100%] bg-[#123D4B] transition duration-300 ease-in z-1000"
      id="mobileMenu">
-    <div id="closeMobileMenuBtn"
-         class="absolute bottom-8 right-8 cursor-pointer h-10 w-10 flex justify-center items-center">
-        <x-icon-close></x-icon-close>
-    </div>
     <div class="flex flex-col flex-1 justify-between gap-8 p-8">
         <x-logo class="self-center"></x-logo>
         <div class="flex flex-col gap-8 items-start">
@@ -39,6 +35,10 @@
                     <span class="text-[#A0AEB7] text-[13px]">улица Тестовая 1</span>
                 </div>
             </div>
+        </div>
+        <div id="closeMobileMenuBtn"
+             class="cursor-pointer h-10 w-full flex justify-end items-center active:animate-bounce">
+            <x-icon-close></x-icon-close>
         </div>
     </div>
 </div>

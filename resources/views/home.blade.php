@@ -4,7 +4,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
 
     <title>{{ config('app.name', 'Komek by ticket') }}</title>
 
@@ -14,6 +14,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="flex bg-black">
+    <button class="fixed bottom-8 left-4 cursor-pointer bg-white rounded-md h-8 w-10 flex justify-center items-center sm:!hidden animate-pulse active:animate-bounce shadow-md z-999"
+         id="openMobileMenuBtn">
+        <x-icon-burger></x-icon-burger>
+    </button>
     <x-mobile-menu></x-mobile-menu>
     <div class="bg-black">
         <img src="{{Vite::asset('resources/assets/images/bg_left.webp')}}" alt="Left poster" class="max-[1714px]:hidden"/>
@@ -75,7 +79,7 @@
                             ],
                         ];
                     @endphp
-                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-[50px] mb-[100px] overflow-hidden">
+                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-[50px] mb-[100px] px-4 overflow-hidden">
                         @foreach($movies as $movie)
                             <x-movie-card :movie="$movie"></x-movie-card>
                         @endforeach

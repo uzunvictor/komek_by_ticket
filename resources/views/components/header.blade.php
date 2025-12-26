@@ -1,10 +1,6 @@
 @use('\Illuminate\Support\Facades\Vite')
 
 <header class="w-full flex flex-col relative">
-    <div class="fixed bottom-4 left-4 transform -translate-y-1/2 cursor-pointer bg-white rounded-md h-10 w-10 flex justify-center items-center sm:!hidden animate-pulse shadow-md"
-         id="openMobileMenuBtn">
-        <x-icon-burger></x-icon-burger>
-    </div>
     <img src="{{Vite::asset('resources/assets/images/main_banner.webp')}}" alt="Main Banner" class="max-sm:!hidden"/>
     <div class="flex flex-wrap justify-center sm:justify-between gap-4 items-center w-full min-h-[92px] bg-[#123D4B] px-[50px] pt-[23px] pb-[24px]">
         <x-logo></x-logo>
