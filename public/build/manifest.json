@@ -20,11 +20,11 @@
     "src": "resources/assets/svg/arrow_down.svg"
   },
   "resources/assets/svg/burger.svg": {
-    "file": "assets/burger-CEBhJnZu.svg",
+    "file": "assets/burger-B8CXMsC0.svg",
     "src": "resources/assets/svg/burger.svg"
   },
   "resources/assets/svg/close.svg": {
-    "file": "assets/close-DB3uLp8l.svg",
+    "file": "assets/close-Cz8ZKsMF.svg",
     "src": "resources/assets/svg/close.svg"
   },
   "resources/assets/svg/facebook.svg": {
@@ -56,7 +56,7 @@
     "src": "resources/assets/svg/youtube.svg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Csx3H5c1.css",
+    "file": "assets/app-D8_K6LKQ.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -65,7 +65,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-w2xEzx19.js",
+    "file": "assets/app-BEATshVE.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
