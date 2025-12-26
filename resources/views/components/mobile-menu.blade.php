@@ -5,7 +5,7 @@
         <x-icon-close></x-icon-close>
     </div>
     <div class="flex flex-col flex-1 justify-between gap-8 p-8">
-        <x-icon-logo class="self-center"></x-icon-logo>
+        <x-logo class="self-center"></x-logo>
         <div class="flex flex-col gap-8 items-start">
             <div class="flex flex-col gap-8">
                 <x-ui.button message="Войти" type="danger"></x-ui.button>

@@ -7,7 +7,7 @@
     </div>
     <img src="{{Vite::asset('resources/assets/images/main_banner.png')}}" alt="Main Banner" class="max-sm:!hidden"/>
     <div class="flex flex-wrap justify-center sm:justify-between gap-4 items-center w-full min-h-[92px] bg-[#123D4B] px-[50px] pt-[23px] pb-[24px]">
-        <x-icon-logo></x-icon-logo>
+        <x-logo></x-logo>
         <div class="flex gap-4 flex-1 justify-around max-sm:!hidden">
             <div class="flex flex-col">
                 <span class="text-white text-base">Казахстан</span>

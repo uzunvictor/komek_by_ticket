@@ -1,6 +1,6 @@
 <footer>
     <div class="flex flex-wrap flex-col justify-start gap-4 sm:justify-between sm:flex-row w-full min-h-[109px] bg-[#123D4B] px-[50px] pt-[24px] pb-[30px]">
-        <x-icon-logo></x-icon-logo>
+        <x-logo></x-logo>
         <div class="flex flex-col">
             <a href="mailto:admin@example.com" class="text-white text-base">admin@example.com</a>
             <a href="mailto:ticket@example.com" class="text-white text-base">ticket@example.com</a>
