@@ -1,19 +1,23 @@
 {
-  "resources/assets/images/bg_left.png": {
-    "file": "assets/bg_left-DVdu5R1P.png",
-    "src": "resources/assets/images/bg_left.png"
+  "resources/assets/images/bg_left.webp": {
+    "file": "assets/bg_left-CN5aQ0W3.webp",
+    "src": "resources/assets/images/bg_left.webp"
   },
-  "resources/assets/images/bg_right.png": {
-    "file": "assets/bg_right-CuwEKVEl.png",
-    "src": "resources/assets/images/bg_right.png"
+  "resources/assets/images/bg_right.webp": {
+    "file": "assets/bg_right-B5GRwTK7.webp",
+    "src": "resources/assets/images/bg_right.webp"
   },
-  "resources/assets/images/main_banner.png": {
-    "file": "assets/main_banner-liTr5G1o.png",
-    "src": "resources/assets/images/main_banner.png"
+  "resources/assets/images/holidays.webp": {
+    "file": "assets/holidays-BnZbhdIi.webp",
+    "src": "resources/assets/images/holidays.webp"
   },
-  "resources/assets/images/noimage.png": {
-    "file": "assets/noimage-_81lJuoy.png",
-    "src": "resources/assets/images/noimage.png"
+  "resources/assets/images/main_banner.webp": {
+    "file": "assets/main_banner-ChYOyPbq.webp",
+    "src": "resources/assets/images/main_banner.webp"
+  },
+  "resources/assets/images/noimage.webp": {
+    "file": "assets/noimage-pNDoY3lw.webp",
+    "src": "resources/assets/images/noimage.webp"
   },
   "resources/assets/svg/arrow_down.svg": {
     "file": "assets/arrow_down-ITWQZbKi.svg",

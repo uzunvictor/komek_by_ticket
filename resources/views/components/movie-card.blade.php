@@ -2,7 +2,8 @@
     @if($movie->label)
         <div class="bg-[#E92B43] text-white text-sm font-medium absolute top-[10px] right-[10px] px-2 py-1 uppercase">{{$movie->label}}</div>
     @endif
-    <img src="{{$movie->image}}" class="w-[279px] h-[400px]" alt=""/>
+    {{--    <img src="{{$movie->image}}" class="w-[279px] h-[400px]" alt=""/>--}}
+    <img src="{{Vite::asset('resources/assets/images/holidays.webp')}}" alt="" class="w-[279px] h-[400px]"/>
     <span class="text-2xl mt-[10px]">{{$movie->title}}</span>
     <div class="flex flex-wrap gap-[7px] mt-[9px]">
         @foreach($movie->tags as $tag)

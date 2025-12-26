@@ -16,7 +16,7 @@
 <body class="flex bg-black">
     <x-mobile-menu></x-mobile-menu>
     <div class="bg-black">
-        <img src="{{Vite::asset('resources/assets/images/bg_left.png')}}" alt="Left poster" class="max-[1714px]:hidden"/>
+        <img src="{{Vite::asset('resources/assets/images/bg_left.webp')}}" alt="Left poster" class="max-[1714px]:hidden"/>
     </div>
     <div class="flex flex-col flex-1">
         <x-header></x-header>
@@ -89,7 +89,7 @@
         <x-footer></x-footer>
     </div>
     <div class="bg-black">
-        <img src="{{Vite::asset('resources/assets/images/bg_right.png')}}" alt="Right poster" class="max-[1714px]:hidden"/>
+        <img src="{{Vite::asset('resources/assets/images/bg_right.webp')}}" alt="Right poster" class="max-[1714px]:hidden"/>
     </div>
 </body>
 </html>
