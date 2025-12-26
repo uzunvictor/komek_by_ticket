@@ -7,10 +7,11 @@ if (mobileMenu && openMenuBtn && closeMenuBtn) {
         openMenuBtn.classList.remove('hidden')
         mobileMenu.classList.add('-translate-x-[100%]')
         mobileMenu.classList.remove('translate-x-0')
+        closeMenuBtn.classList.remove('animate-pulse')
         document.body.classList.remove('overflow-hidden')
         document.documentElement.classList.remove('overflow-hidden')
     })
-    openMenuBtn.addEventListener('click', function (e) {
+    openMenuBtn.addEventListener('click', function () {
         openMenuBtn.classList.add('hidden')
         mobileMenu.classList.add('translate-x-0')
         document.body.classList.add('overflow-hidden')

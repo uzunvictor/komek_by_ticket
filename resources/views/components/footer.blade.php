@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="[&>*]:bg-[#0C3542]">
-        <div class="flex flex-col sm:flex-row border-b border-[#A0AEB7]">
+        <div class="flex flex-col sm:flex-row">
             <div class="flex-1 mt-7 ml-[50px] mb-4 sm:mb-[41px] flex flex-col gap-4">
                 <span class="text-white">Меню</span>
                 <ul class="[&>*]:text-[#A0AEB7] flex flex-col gap-1">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col gap-4 justify-center sm:justify-between items-center px-[50px] pt-[19px] pb-[23px]">
+        <div class="flex flex-col gap-4 justify-center sm:justify-between items-center px-[50px] pt-[19px] pb-[23px] border-t border-[#A0AEB7]">
             <div class="flex gap-4 items-center">
                 <a href="https://www.facebook.com/groups/worldcinemagroup/" target="_blank"><x-icon-facebook></x-icon-facebook></a>
                 <a href="https://www.instagram.com/thecinemagroup/" target="_blank"><x-icon-instagram></x-icon-instagram></a>

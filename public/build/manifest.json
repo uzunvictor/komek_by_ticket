@@ -60,7 +60,7 @@
     "src": "resources/assets/svg/youtube.svg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-B8pLjigx.css",
+    "file": "assets/app-hwNEwY7r.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -69,7 +69,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-BEATshVE.js",
+    "file": "assets/app-CCP74OAa.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
