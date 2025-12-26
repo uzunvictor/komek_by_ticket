@@ -11,9 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('info_movie', function (Blueprint $table) {
-            $table->foreignId('movie_id')->constrained();
-            $table->foreignId('info_id')->constrained();
+        Schema::create('screenings', function (Blueprint $table) {
+            $table->id();
+            $table->string('time');
+            $table->string('hall');
+            $table->string('type');
+            $table->string('price');
+            $table->timestamps();
         });
     }
 
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('info_movie');
+        Schema::dropIfExists('screenings');
     }
 };

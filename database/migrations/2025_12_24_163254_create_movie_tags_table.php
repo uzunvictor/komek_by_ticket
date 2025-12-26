@@ -11,12 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('movie', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->string('label')->nullable();
-            $table->string('image')->nullable();
-            $table->timestamps();
+        Schema::create('movie_tags', function (Blueprint $table) {
+            $table->foreignId('movie_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('tag_id')->constrained()->cascadeOnDelete();
         });
     }
 
@@ -25,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('movie');
+        Schema::dropIfExists('movie_tags');
     }
 };
