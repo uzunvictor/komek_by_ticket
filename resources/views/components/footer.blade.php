@@ -38,7 +38,7 @@
                         <x-icon-visa></x-icon-visa>
                     </div>
                 </div>
-                <div class="flex flex-col text-[13px] text-[#A0AEB7] mb-4 md:mb-0">
+                <div class="flex flex-col text-[13px] text-[#A0AEB7] text-wrap pr-4 md:p-0 mb-4 md:mb-0">
                     <span>Все сеансы начинаются с рекламно-информационного блока.</span>
                     <span>Точную продолжительность сеансов можно уточнить в кинотеатре.</span>
                 </div>

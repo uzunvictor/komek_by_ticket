@@ -79,7 +79,7 @@
                             ],
                         ];
                     @endphp
-                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-[50px] mb-[100px] px-4 overflow-hidden">
+                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-5 md:mx-[50px] mb-[100px] px-4 overflow-hidden">
                         @foreach($movies as $movie)
                             <x-movie-card :movie="$movie"></x-movie-card>
                         @endforeach
