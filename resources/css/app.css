@@ -8,6 +8,7 @@
 @theme {
     --font-sans: "Roboto", sans-serif;
     --animate-fade-in-y: fade-in-y 0.3s ease-in-out forwards;
+    --animate-fade-in-x: fade-in-x 0.3s ease-in-out forwards;
 
     @keyframes fade-in-y {
         0% {
@@ -19,6 +20,20 @@
         }
         100% {
             transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-in-x {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.15;
+        }
+        100% {
+            transform: translateX(0);
             opacity: 1;
         }
     }

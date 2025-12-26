@@ -35,7 +35,7 @@
             </x-ui.tabs>
             <div id="tab_panels">
                 <div data-id="Афиша" class="flex flex-col">
-                    <div class="flex flex-wrap gap-[6px] bg-[#F2F2F5] py-2 pl-[50px]" id="daysButtons">
+                    <div class="flex flex-wrap gap-[6px] bg-[#F2F2F5] py-2 pl-[50px] animate-fade-in-x" id="daysButtons">
                         <x-ui.button message="Сегодня" type="danger"></x-ui.button>
                         <x-ui.button message="Завтра"></x-ui.button>
                         <x-ui.button message="Воскресенье, 10 сент."></x-ui.button>
