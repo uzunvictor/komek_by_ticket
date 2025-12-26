@@ -20,7 +20,7 @@
     </div>
     <div class="flex flex-col flex-1">
         <x-header></x-header>
-        <main class="bg-white">
+        <main class="bg-white overflow-hidden">
             @php
                 $tabs = ['Афиша', 'Сеансы', 'Кинотеатр', 'Контакты'];
                 $selectedTab = $tabs[0];
