@@ -47,7 +47,7 @@
                         <x-ui.button message="Вторник, 12 сент."></x-ui.button>
                         <x-ui.button message="Среда, 13 сент."></x-ui.button>
                     </div>
-                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-5 md:mx-[50px] mb-[100px] px-4 overflow-hidden">
+                    <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-5 md:mx-auto mb-[100px] px-4 md:px-0 overflow-hidden">
                         @foreach($movies as $movie)
                             <x-movie-card :movie="$movie"></x-movie-card>
                         @endforeach
