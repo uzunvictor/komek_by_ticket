@@ -10,7 +10,9 @@ class Tabs extends Component
 {
 
     public function __construct(public array $tabs, public string $selectedTab)
-    {}
+    {
+
+    }
 
     public function render(): View|Closure|string
     {

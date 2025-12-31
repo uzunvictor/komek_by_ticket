@@ -11,9 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('movie_screenings', function (Blueprint $table) {
-            $table->foreignId('movie_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('screening_id')->constrained()->cascadeOnDelete();
+        Schema::create('movies', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->string('image')->nullable();
+            $table->foreignId('label_id')->nullable()->constrained()->cascadeOnDelete();
+            $table->timestamps();
         });
     }
 
@@ -22,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('movie_screenings');
+        Schema::dropIfExists('movies');
     }
 };

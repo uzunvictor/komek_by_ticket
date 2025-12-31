@@ -9,12 +9,23 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Movie extends Model
 {
     protected $fillable = [
-        'title', 'label'
+        'title', 'label_id', 'image'
     ];
 
-    public function info(): BelongsTo
+    public function imagePath(): string
     {
-        return $this->belongsTo(Info::class);
+        $image = $this->image ?? 'noimage.svg';
+        return '/storage/images/'.$image;
+    }
+
+    public function label(): BelongsTo
+    {
+        return $this->belongsTo(Label::class);
+    }
+
+    public function screenings(): BelongsToMany
+    {
+        return $this->belongsToMany(Screening::class);
     }
 
     public function tags(): BelongsToMany

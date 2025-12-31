@@ -47,38 +47,6 @@
                         <x-ui.button message="Вторник, 12 сент."></x-ui.button>
                         <x-ui.button message="Среда, 13 сент."></x-ui.button>
                     </div>
-                    @php
-                        $movies = [
-                            (object) [
-                                'title' => 'Праздники',
-                                'label'=>'премьера',
-                                'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
-                                'tags'=>['экшен', 'триллер'],
-                                'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
-                            ],
-                            (object) [
-                                'title' => 'Праздники',
-                                'label'=>'премьера',
-                                'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
-                                'tags'=>['экшен', 'триллер', 'экшен', 'триллер', 'экшен', 'триллер'],
-                                'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
-                            ],
-                            (object) [
-                                'title' => 'Праздники',
-                                'label'=>'премьера',
-                                'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
-                                'tags'=>['экшен', 'триллер'],
-                                'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
-                            ],
-                            (object) [
-                                'title' => 'Праздники',
-                                'label'=>'премьера',
-                                'image'=>'https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg',
-                                'tags'=>['экшен', 'триллер', 'экшен', 'триллер', 'экшен', 'триллер'],
-                                'info'=>['time'=>'15:35', 'hall'=>'Зал 3', 'type'=>'2D', 'price'=>'1233 ₸']
-                            ],
-                        ];
-                    @endphp
                     <div class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center sm:items-start gap-[25px] animate-fade-in-y mt-5 mx-5 md:mx-[50px] mb-[100px] px-4 overflow-hidden">
                         @foreach($movies as $movie)
                             <x-movie-card :movie="$movie"></x-movie-card>
