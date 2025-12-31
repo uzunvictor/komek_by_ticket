@@ -13,12 +13,12 @@ class MovieSeeder extends Seeder
     public function run(): void
     {
         DB::table('movies')->insert([
-            ['title' => 'Праздники', 'image' => 'holidays.png', 'label_id' => 1, 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'Мег 2: Бездна', 'image' => 'meg2.png', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'Заложники', 'image' => 'hostages.png', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'Леди Баг и Супер-Кот: Пробуждение силы', 'image' => 'ladybag.png', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'Праздники', 'image' => 'holidays.webp', 'label_id' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'Мег 2: Бездна', 'image' => 'meg2.webp', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'Заложники', 'image' => 'hostages.webp', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'Леди Баг и Супер-Кот: Пробуждение силы', 'image' => 'ladybag.webp', 'label_id' => null, 'created_at' => now(), 'updated_at' => now()],
             ['title' => 'Когда не загрузилась афиша', 'image' => null, 'label_id' => 1, 'created_at' => now(), 'updated_at' => now()],
-            ['title' => 'Руслан и Людмила. Больше, чем сказка', 'image' => 'ruslan.png', 'label_id' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['title' => 'Руслан и Людмила. Больше, чем сказка', 'image' => 'ruslan.webp', 'label_id' => 1, 'created_at' => now(), 'updated_at' => now()],
         ]);
         DB::table('movie_screening')->insert([
             ['movie_id' => '1', 'screening_id' => '1'],

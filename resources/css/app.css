@@ -12,11 +12,8 @@
 
     @keyframes fade-in-y {
         0% {
-            transform: translateY(-100%);
+            transform: translateY(-50px);
             opacity: 0;
-        }
-        50% {
-            opacity: 0.15;
         }
         100% {
             transform: translateY(0);
@@ -26,11 +23,8 @@
 
     @keyframes fade-in-x {
         0% {
-            transform: translateX(-100%);
+            transform: translateX(-50px);
             opacity: 0;
-        }
-        50% {
-            opacity: 0.15;
         }
         100% {
             transform: translateX(0);
