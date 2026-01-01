@@ -1,5 +1,6 @@
 import './bootstrap';
 import './days_buttons';
+import './main_slider';
 import './mobile_menu';
 import './tabs';
 

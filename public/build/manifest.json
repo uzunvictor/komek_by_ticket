@@ -1,4 +1,8 @@
 {
+  "resources/assets/images/aladdin.webp": {
+    "file": "assets/aladdin-C1T6AOhZ.webp",
+    "src": "resources/assets/images/aladdin.webp"
+  },
   "resources/assets/images/bg_left.webp": {
     "file": "assets/bg_left-CN5aQ0W3.webp",
     "src": "resources/assets/images/bg_left.webp"
@@ -24,7 +28,7 @@
     "src": "resources/assets/svg/arrow_down.svg"
   },
   "resources/assets/svg/burger.svg": {
-    "file": "assets/burger-DGXU3cfG.svg",
+    "file": "assets/burger-C2pUJj3i.svg",
     "src": "resources/assets/svg/burger.svg"
   },
   "resources/assets/svg/close.svg": {
@@ -60,7 +64,7 @@
     "src": "resources/assets/svg/youtube.svg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bi2L8jDi.css",
+    "file": "assets/app-DJ9W0IL5.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -69,9 +73,12 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CCP74OAa.js",
+    "file": "assets/app-CDOKpj1k.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/app-uGqyt-El.css"
+    ]
   }
 }

@@ -14,15 +14,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="flex bg-black">
-    <button class="fixed bottom-8 left-4 cursor-pointer bg-white rounded-md h-8 w-10 flex justify-center items-center sm:!hidden animate-pulse active:animate-bounce shadow-md z-999"
-         id="openMobileMenuBtn">
-        <x-icon-burger></x-icon-burger>
-    </button>
     <x-mobile-menu></x-mobile-menu>
-    <div class="bg-black">
+    <div class="bg-black flex-1">
         <img src="{{Vite::asset('resources/assets/images/bg_left.webp')}}" alt="Left poster" class="max-[1714px]:hidden"/>
     </div>
-    <div class="flex flex-col flex-1">
+    <div class="flex flex-col max-w-[1240px]">
         <x-header></x-header>
         <main class="bg-white overflow-hidden">
             @php
@@ -60,7 +56,7 @@
         </main>
         <x-footer></x-footer>
     </div>
-    <div class="bg-black">
+    <div class="bg-black flex-1">
         <img src="{{Vite::asset('resources/assets/images/bg_right.webp')}}" alt="Right poster" class="max-[1714px]:hidden"/>
     </div>
 </body>
